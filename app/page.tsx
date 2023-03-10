@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Nav />
       <Hero />
       <Education />
+      <Projects />
     </>
   );
 }

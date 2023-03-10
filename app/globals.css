@@ -14,7 +14,7 @@
   @apply text-[#756c6c]  tracking-[.35em] font-sans text-[18px] font-medium;
 }
 .boxhead {
-  @apply text-3xl text-black  font-bold drop-shadow-[0_15px_15px_rgb(176,176,176)];
+  @apply text-2xl text-black  font-bold drop-shadow-[0_15px_15px_rgb(190,190,190)];
 }
 .background-1 {
   background-image: linear-gradient(135deg, #7bbef5 10%, #c9e6ab);
@@ -24,4 +24,15 @@
 }
 .background-3 {
   background-image: linear-gradient(135deg, #f690af 10%, #f6e05f);
+}
+
+.s-box:nth-child(3n-1) {
+  background-image: linear-gradient(135deg, #dff1b3 10%, #f6fde9);
+}
+.s-box:nth-child(3n-2) {
+  background-image: linear-gradient(135deg, #fce8db 10%, #fbfce3);
+}
+
+.s-box:nth-child(3n) {
+  background-image: linear-gradient(135deg, #d2d7f0 10%, #e1f6f6);
 }
