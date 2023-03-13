@@ -19,7 +19,7 @@ const Contact = () => {
         />
       </div>
 
-      <div className="flex flex-col gap-3 text-center lg:text-left md:h-auto   lg:flex-row items-center justify-between w-9/12 mx-auto rounded-md shadow-xl px-16 py-12 z-10 -mt-56 mb-10 lg:h-72 relative contact-bg">
+      <div className="flex flex-col gap-3 text-center lg:text-left md:h-auto   lg:flex-row items-center justify-between w-9/12 mx-auto rounded-md shadow-xl px-16 py-12  -mt-56 mb-10 lg:h-72 relative contact-bg">
         <Image
           src={"/uzair.jpg"}
           alt="human"

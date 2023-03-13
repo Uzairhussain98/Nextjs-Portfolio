@@ -32,7 +32,7 @@ const PBox = ({ title, desc, image, link }: Props) => {
           alt="netflix"
           width={800}
           height={500}
-          className="w-[100%] h-48"
+          className="w-[100%] rounded-md"
         />
       </Link>
     </div>

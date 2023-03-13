@@ -10,6 +10,10 @@
   @apply text-[#ef9218] tracking-widest font-sans text-[18px] font-medium;
 }
 
+.background-ham {
+  background-image: linear-gradient(#ffa8a8 10%, #fcff00);
+}
+
 .hsec {
   @apply text-[#756c6c]  tracking-[.35em] font-sans text-[18px] font-medium;
 }
@@ -38,4 +42,20 @@
 
 .s-box:nth-child(3n) {
   background-image: linear-gradient(135deg, #d2d7f0 10%, #e1f6f6);
+}
+
+.animate {
+  /* position: relative; */
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0% {
+    top: -800px;
+  }
+
+  25% {
+    top: 0px;
+  }
 }
