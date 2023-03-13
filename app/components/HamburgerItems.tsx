@@ -20,7 +20,7 @@ const HamburgerItems = () => {
       </ul>
       <ul className="flex flex-col gap-6 lg:gap-16">
         <h1 className="text-black drop-shadow-2xl font-semibold   tracking-[.35em] font-sans text-[18px] ">
-          LET'S CONNECT
+          LETS CONNECT
         </h1>
         <div className="flex gap-6  lg:justify-start">
           <Image
