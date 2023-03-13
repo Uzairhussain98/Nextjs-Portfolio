@@ -13,8 +13,8 @@ type Program = {
 const Projects = () => {
   return (
     <div className="flex w-11/12 px-4 mx-auto flex-col mt-24 gap-8 mb-8">
-      <h3 className="hsec">CHECK OUR SOME OF MY PROJECTS —</h3>
-      <div className="flex justify-between flex-wrap gap-3 ">
+      <h3 className="hsec">MY PROJECTS —</h3>
+      <div className="flex  flex-wrap  lg:gap-10 ">
         {projects.map(({ id, title, desc, image, link }: Program) => (
           <PBox title={title} desc={desc} image={image} key={id} link={link} />
         ))}
