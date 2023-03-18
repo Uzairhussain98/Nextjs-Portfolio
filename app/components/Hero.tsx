@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="px-4 md:px-0  md:w-11/12 md:ml-auto flex md:bg-[url('/home-bg.svg')] bg-right  h-[700px] bg-opacity-25 ">
+    <div className="px-4 md:px-0  md:w-11/12 md:ml-auto flex md:bg-[url('/home-bg.svg')] bg-no-repeat bg-right  h-[700px] bg-opacity-25 ">
       <div className=" flex flex-col  mt-32 opacity-100   gap-8 ">
         <h3 className="hsmall">HELLO THERE👋, I’M</h3>
         <h3 className="text-6xl text-black  font-bold drop-shadow-[0_15px_15px_rgb(176,176,176)]">
