@@ -19,7 +19,7 @@ const Box = ({ bg, title, desc, institute }: Props) => {
       <ul className="text-[15px] list-disc m-4 ">
         <li>GPA: 3.2</li>
         <li>Deans List Certificate</li>
-        <li>Sports Person </li>
+        {/* <li>Sports Person </li> */}
       </ul>
     </div>
   );
